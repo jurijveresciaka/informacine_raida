@@ -1,0 +1,117 @@
+<!doctype html>
+<html>
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <link rel="stylesheet" href="css/foundation.min.css" />
+  </head>
+  
+  <body>
+  
+    <div class="row">
+      <div class="large-12 columns">
+        <h1>Užduoties Nr. 1 sprendimas</h1>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="large-12 columns">
+      
+        <div class="panel callout">
+          <p>1. Užduotis C#, PHP, Java</p>
+          <p>Parašykite programą, kuri apskaičiuotų mažesnįjį kampą tarp analoginio laikrodžio valandos ir minučių rodyklių. Kai yra žinomas laikas (pvz: 08:13:00).</p>
+        </div>
+        
+        <div class="panel">
+          <p>Laikrodis</p>
+          <img src="img/clock.png" alt="clock">
+        </div>
+        
+        <div class="panel">
+          <p>Rodyklių judėjimas</p>
+          <table>
+            <thead>
+              <tr>
+                <th></th>
+                <th colspan="3" class="text-center">rodyklės pajūdėjimas per</th>
+              </tr>
+              <tr>
+                <th class="text-right">rodyklė</th>
+                <th class="text-center">1 val.</th>
+                <th class="text-center">1 min.</th>
+                <th class="text-center">1 sek.</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="text-right">minutės</td>
+                <td class="text-center">360.0 &deg;</td>
+                <td class="text-center">6.0 &deg;</td>
+                <td class="text-center">0.1 &deg;</td>
+              </tr>
+              <tr>
+                <td class="text-right">valandos</td>
+                <td class="text-center">30.0 &deg;</td>
+                <td class="text-center">0.5 &deg;</td>
+                <td class="text-center">~0.008 &deg;</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        
+        <div class="panel">
+          <p>Rodyklės kampo apskaičiavimas</p>
+          <table>
+            <thead>
+              <tr>
+                <th class="text-right"></th>
+                <th class="text-left">rodyklės kampo skaičiavimo formulė</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="text-right">minutės</td>
+                <td class="text-left">(min. &times; 6.0) + (sek. &times; 0.1)</td>
+              </tr>
+              <tr>
+                <td class="text-right">valandos</td>
+                <td class="text-left">((val. mod 12) × 30.0) + (min &times; 0.5) + (sek. &times; 0.008)</td>
+              </tr>
+              <tr>
+                <td class="text-right"></td>
+                <td class="text-left">čia (h mod 12) konvertuoja 18:20 formatą į 06:20 formatą</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        
+        <div class="panel">
+          <p>Mažiausio kampo tarp rodyklių apskaičiavimas</p>
+          <p>absoliutus_kampas = | minutes_kampas - valandos_kampas |</p>
+          <p>Jei (absoliutus_kampas didesnis arba lygus 180°) tuomet absoliutus_kampas = 360° - absoliutus_kampas</p>
+        </div>
+        
+        <div class="panel">
+          <p>Nuorodos</p>
+          <ul class="no-bullet">
+            <li><a href="http://foundation.zurb.com/docs/" target="_blank">Foundation documentation</a></li>
+            <li><a href="http://www.mkyong.com/regular-expressions/how-to-validate-time-in-24-hours-format-with-regular-expression/" target="_blank">Time regex 1</a></li>
+            <li><a href="http://stackoverflow.com/questions/14772142/24-hour-time-regex-for-html-5" target="_blank">Time regex 1</a></li>
+            <li><a href="http://www.w3schools.com/html/html_colornames.asp" target="_blank">HTML colors</a></li>
+            <li><a href="http://www.w3.org/TR/SVG/paths.html#PathDataEllipticalArcCommands" target="_blank">SVG arc</a></li>
+            <li><a href="http://www.svgbasics.com/arcs.html" target="_blank">SVG arc</a></li>
+            <li><a href="http://www.w3.org/TR/SVG/paths.html" target="_blank">SVG paths</a></li>
+            <li><a href="http://www.sitepoint.com/html5-svg-cubic-curves/" target="_blank">SVG Bézier Curves</a></li>
+            <li><a href="http://www.html5tothepoint.com/svg.htm" target="_blank">SVG symbols</a></li>
+            <li><a href="http://www.w3schools.com/svg/svg_path.asp" target="_blank">SVG symbols</a></li>
+            <li><a href="http://oreilly.com/catalog/svgess/chapter/ch03.html#t8" target="_blank">SVG book</a></li>
+          </ul>
+        </div>
+        
+      </div>
+    </div>
+    
+  </body>
+</html>
