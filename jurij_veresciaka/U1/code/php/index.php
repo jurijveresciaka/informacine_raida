@@ -16,7 +16,7 @@ echo $html_helper->getTimeForm();
 if (isset($_POST['time'])) {
     $time_validator = new TimeValidator();
 
-    if ($time_validator->isTimeValid($_POST['time'])) {
+    if ($time_validator->isValid($_POST['time'])) {
         $clock = new Clock($_POST['time']);
 
         $angle_calculator = new AngleCalculator($clock);

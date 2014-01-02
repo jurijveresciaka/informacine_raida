@@ -10,20 +10,20 @@ class SvgClock
     private $minutes_arrow_angle;
     private $hours_arrow_angle;
 
-    private $minutes_arrow_length;
-    private $hours_arrow_length;
+    private $minutes_arrow_length = 50;
+    private $hours_arrow_length = 30;
 
-    private $width;
-    private $height;
+    private $width = 200;
+    private $height = 200;
 
-    private $minute_tick_length;
-    private $minute_tick_offset;
+    private $minute_tick_length = 10;
+    private $minute_tick_offset = 70;
 
-    private $hour_tick_length;
-    private $hour_tick_offset;
+    private $hour_tick_length = 20;
+    private $hour_tick_offset = 60;
 
-    private $min_angle_arc_offset;
-    private $max_angle_arc_offset;
+    private $min_angle_arc_offset = 90;
+    private $max_angle_arc_offset = 95;
 
     ///////////////////////////////////////////////
     //CONSTRUCTOR                                //
@@ -33,20 +33,6 @@ class SvgClock
     {
         $this->minutes_arrow_angle = $minutes_arrow_angle;
         $this->hours_arrow_angle = $hours_arrow_angle;
-
-        $this->minutes_arrow_length = 50;
-        $this->hours_arrow_length = 30;
-
-        $this->width = 200;
-        $this->height = 200;
-        $this->hour_tick_length = 20;
-        $this->hour_tick_offset = 60;
-
-        $this->minute_tick_length = 10;
-        $this->minute_tick_offset = 70;
-
-        $this->min_angle_arc_offset = 90;
-        $this->max_angle_arc_offset = 95;
     }
 
     ///////////////////////////////////////////////

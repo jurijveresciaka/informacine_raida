@@ -10,8 +10,13 @@ class AngleCalculator
     ///////////////////////////////////////////////
 
     private $clock;
-    private $minutes_arrow_minutes_multiplicator;
-    private $minutes_arrow_seconds_multiplicator;
+    
+    private $minutes_arrow_minutes_multiplicator = 6.0;
+    private $minutes_arrow_seconds_multiplicator = 0.1;
+    
+    private $hours_arrow_hours_multiplicator = 30.0;
+    private $hours_arrow_minutes_multiplicator = 0.5;
+    private $hours_arrow_seconds_multiplicator;
 
     ///////////////////////////////////////////////
     //CONSTRUCTOR                                //
@@ -20,12 +25,7 @@ class AngleCalculator
     function __construct($clock)
     {
         $this->clock = $clock;
-
-        $this->minutes_arrow_minutes_multiplicator = 6.0;
-        $this->minutes_arrow_seconds_multiplicator = 0.1;
-
-        $this->hours_arrow_hours_multiplicator = 30.0;
-        $this->hours_arrow_minutes_multiplicator = 0.5;
+        
         $this->hours_arrow_seconds_multiplicator = 30 / 3600;
     }
 
