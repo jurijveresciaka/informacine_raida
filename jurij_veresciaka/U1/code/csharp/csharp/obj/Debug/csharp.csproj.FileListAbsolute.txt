@@ -1,0 +1,13 @@
+C:\xampp\htdocs\informacine_raida\jurij_veresciaka\U1\code\csharp\csharp\bin\Debug\csharp.exe.config
+C:\xampp\htdocs\informacine_raida\jurij_veresciaka\U1\code\csharp\csharp\obj\Debug\csharp.csprojResolveAssemblyReference.cache
+C:\xampp\htdocs\informacine_raida\jurij_veresciaka\U1\code\csharp\csharp\obj\Debug\MainWindow.baml
+C:\xampp\htdocs\informacine_raida\jurij_veresciaka\U1\code\csharp\csharp\obj\Debug\MainWindow.g.cs
+C:\xampp\htdocs\informacine_raida\jurij_veresciaka\U1\code\csharp\csharp\obj\Debug\App.g.cs
+C:\xampp\htdocs\informacine_raida\jurij_veresciaka\U1\code\csharp\csharp\obj\Debug\csharp_MarkupCompile.cache
+C:\xampp\htdocs\informacine_raida\jurij_veresciaka\U1\code\csharp\csharp\obj\Debug\csharp.g.resources
+C:\xampp\htdocs\informacine_raida\jurij_veresciaka\U1\code\csharp\csharp\obj\Debug\csharp.Properties.Resources.resources
+C:\xampp\htdocs\informacine_raida\jurij_veresciaka\U1\code\csharp\csharp\obj\Debug\csharp.csproj.GenerateResource.Cache
+C:\xampp\htdocs\informacine_raida\jurij_veresciaka\U1\code\csharp\csharp\bin\Debug\csharp.exe
+C:\xampp\htdocs\informacine_raida\jurij_veresciaka\U1\code\csharp\csharp\bin\Debug\csharp.pdb
+C:\xampp\htdocs\informacine_raida\jurij_veresciaka\U1\code\csharp\csharp\obj\Debug\csharp.exe
+C:\xampp\htdocs\informacine_raida\jurij_veresciaka\U1\code\csharp\csharp\obj\Debug\csharp.pdb

@@ -10,6 +10,8 @@ import model.Clock;
 import model.TimeValidator;
 
 public class CustomFrame extends JFrame {
+	
+	private static final long serialVersionUID = -4673040337179571462L;
 
     ///////////////////////////////////////////////
     //VARIABLES                                  //
