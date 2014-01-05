@@ -1,0 +1,8 @@
+C:\xampp\htdocs\informacine_raida\jurij_veresciaka\U2\code\csharpTest\csharpTest\bin\Release\csharpTest.exe.config
+C:\xampp\htdocs\informacine_raida\jurij_veresciaka\U2\code\csharpTest\csharpTest\bin\Release\csharpTest.exe
+C:\xampp\htdocs\informacine_raida\jurij_veresciaka\U2\code\csharpTest\csharpTest\bin\Release\csharpTest.pdb
+C:\xampp\htdocs\informacine_raida\jurij_veresciaka\U2\code\csharpTest\csharpTest\bin\Release\csharp.dll
+C:\xampp\htdocs\informacine_raida\jurij_veresciaka\U2\code\csharpTest\csharpTest\bin\Release\csharp.pdb
+C:\xampp\htdocs\informacine_raida\jurij_veresciaka\U2\code\csharpTest\csharpTest\obj\Release\csharpTest.csprojResolveAssemblyReference.cache
+C:\xampp\htdocs\informacine_raida\jurij_veresciaka\U2\code\csharpTest\csharpTest\obj\Release\csharpTest.exe
+C:\xampp\htdocs\informacine_raida\jurij_veresciaka\U2\code\csharpTest\csharpTest\obj\Release\csharpTest.pdb

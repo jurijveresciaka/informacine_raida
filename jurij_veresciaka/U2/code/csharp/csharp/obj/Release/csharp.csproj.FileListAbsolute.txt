@@ -1,0 +1,5 @@
+C:\xampp\htdocs\informacine_raida\jurij_veresciaka\U2\code\csharp\csharp\bin\Release\csharp.dll
+C:\xampp\htdocs\informacine_raida\jurij_veresciaka\U2\code\csharp\csharp\bin\Release\csharp.pdb
+C:\xampp\htdocs\informacine_raida\jurij_veresciaka\U2\code\csharp\csharp\obj\Release\csharp.dll
+C:\xampp\htdocs\informacine_raida\jurij_veresciaka\U2\code\csharp\csharp\obj\Release\csharp.pdb
+C:\xampp\htdocs\informacine_raida\jurij_veresciaka\U2\code\csharp\csharp\obj\Release\csharp.csprojResolveAssemblyReference.cache
